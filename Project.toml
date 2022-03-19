@@ -8,6 +8,7 @@ Polylogarithms = "43cc4a2f-1a2b-4fbb-87e3-95c794af13de"
 
 [compat]
 julia = "1.6"
+Polylogarithms = "0.1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
