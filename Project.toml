@@ -1,4 +1,4 @@
-name = "FermiDiracIntegral"
+name = "FermiDiracIntegrals"
 uuid = "e265ac49-cc4b-4270-b3a8-e67d55197967"
 authors = ["Michael Pusterhofer <pusterhofer@student.tugraz.at> and contributors"]
 version = "0.1.0"

@@ -1,7 +1,7 @@
-using FermiDiracIntegral
+using FermiDiracIntegrals
 using Test
 
-@testset "FermiDiracIntegral.jl" begin
+@testset "FermiDiracIntegrals.jl" begin
     for x in -10:10
         @test isapprox(F(0,x),log(1+exp(x))) 
     end

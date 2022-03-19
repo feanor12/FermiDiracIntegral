@@ -1,4 +1,4 @@
-module FermiDiracIntegral
+module FermiDiracIntegrals
 
 using Polylogarithms
 

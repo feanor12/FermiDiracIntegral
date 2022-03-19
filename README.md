@@ -9,7 +9,7 @@ The general implementaion uses [Polylogarithms.jl](https://github.com/mroughan/P
 The approximated version can be called like this:
 
 ```julia
-julia> using FermiDiracIntegral
+julia> using FermiDiracIntegrals
 
 julia> F(Val(1/2),1)
 1.5676943564187247
@@ -18,7 +18,7 @@ julia> F(Val(1/2),1)
 and the gerneral polylogarithm implementation can be used like this:
 
 ```julia
-julia> using FermiDiracIntegral
+julia> using FermiDiracIntegrals
 
 julia> F(1/2,1)
 1.575640776151315 - 0.0im
@@ -29,7 +29,7 @@ Benchmark:
 ```julia
 julia> using BenchmarkTools
 
-julia> using FermiDiracIntegral
+julia> using FermiDiracIntegrals
 
 julia> @btime F(1/2,1)
   64.742 μs (18 allocations: 512 bytes)
