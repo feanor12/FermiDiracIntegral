@@ -3,6 +3,9 @@ uuid = "e265ac49-cc4b-4270-b3a8-e67d55197967"
 authors = ["Michael Pusterhofer <pusterhofer@student.tugraz.at> and contributors"]
 version = "0.1.0"
 
+[deps]
+Polylogarithms = "43cc4a2f-1a2b-4fbb-87e3-95c794af13de"
+
 [compat]
 julia = "1.6"
 
