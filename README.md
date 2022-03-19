@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/feanor12/FermiDiracIntegral.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/feanor12/FermiDiracIntegral.jl/actions/workflows/CI.yml?query=branch%3Amain)
 
-Implements the complete Fermi-Dirac-integral ([Wikipedia](https://en.wikipedia.org/wiki/Complete_Fermi%E2%80%93Dirac_integral))
+Implements the complete Fermi-Dirac integral ([Wikipedia](https://en.wikipedia.org/wiki/Complete_Fermi%E2%80%93Dirac_integral))
 
 The general implementaion uses [Polylogarithms.jl](https://github.com/mroughan/Polylogarithms.jl), but there is also an approximaton for `F(1/2,x)` available.
 
