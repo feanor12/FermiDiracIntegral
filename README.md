@@ -7,24 +7,26 @@ Implements the complete Fermi-Dirac-integral
 The general implementaion uses polylogarithms, but there is also an approximation for 'F(1/2,x)' available.
 
 The approximated version can be called like this:
-´´´
+
+```julia
 julia> using FermiDiracIntegral
 
 julia> F(Val(1/2),1)
 1.5676943564187247
-´´´
+```
 
 and the gerneral polylog implementation can be used like this:
 
-´´´
+```julia
 julia> using FermiDiracIntegral
 
 julia> F(1/2,1)
 1.575640776151315 - 0.0im
-´´´
+```
 
 Benchmark:
-```
+
+```julia
 julia> using BenchmarkTools
 
 julia> using FermiDiracIntegral
