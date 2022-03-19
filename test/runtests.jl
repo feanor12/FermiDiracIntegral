@@ -6,8 +6,8 @@ using Test
         @test isapprox(F(0,x),log(1+exp(x))) 
     end
 
-    for x in -100:100
-        @test isapprox(F(0.5,x),F(Val(1/2),x),rtol=1e-1) 
+    for x in -100:0.1:100
+        @test isapprox(F(0.5,x),F(Val(1/2),x),rtol=0.03) 
     end
    
     ## https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1950.0183

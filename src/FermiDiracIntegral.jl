@@ -24,7 +24,7 @@ end
 """
 Approximation of the complete Fermi-Dirac-integral for j = 1/2
 
-Check for a relative tolerance of 0.1 in the range x = -100:100
+Checked for a relative tolerance of 3% in the range x = -100:0.1:100
 
 Speed: 100 times faster than the polylog version
 """
