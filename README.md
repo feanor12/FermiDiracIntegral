@@ -15,7 +15,7 @@ julia> F(Val(1/2),1)
 1.5676943564187247
 ```
 
-and the gerneral polylogarithm implementation can be used like this:
+and the general polylogarithm implementation can be used like this:
 
 ```julia
 julia> using FermiDiracIntegrals
